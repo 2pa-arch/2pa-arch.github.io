@@ -3,15 +3,63 @@
     <head>
         <title>Search</title>
         <style>
+            .IMG {
+                margin-top: 200px;
+                text-align: center;
+            }
+            div {
+                text-align: center;
+
+            }
+            .input {
+                background-color: #202124;
+                box-sizing: content-box;
+                border: solid #5F6368 1.5px;
+                border-radius: 8em/6em; 
+            }
+            .input:hover{
+                background-color: #303134;
+                border: solid #5F6368 0px;
+
+            }
+
+            body {
+                background-color: #202124;
+            }
             #input {
-                border-radius: 30px;
+                font-size: 1px;
+                width: 200%;
+                color: #FFFFFF;
+                font-size:30px;
+                font-weight:bold;
+                               
+            }
+            #input:hover{
+                background-color: #303134;
+                border: solid #5F6368 0px;
+
+            }
+            form {
+                margin-top: 50px;
+                margin-left: 750px;
+                
+                width: 200px
             }
         </style>
     </head>
     <body>
+        <div class="IMG">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png" alt="">
+        </div>
         <form action="https://google.com/search">
+            <div class="input">
             <input id="input" type="text" name="q">
-            <input type="submit" value="Google Search">
+            </div>
+            <!-- <input type="submit" value="Google Search"> -->
         </form>
+
+        <div class="LOL" style="text-align: center;">
+
+        </div>
     </body>
 </html>
